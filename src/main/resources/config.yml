@@ -1,0 +1,44 @@
+random-words:
+  - "computer"
+  - "keyboard"
+  - "mouse"
+  - "sword"
+  - "shield"
+  - "castle"
+  - "dragon"
+  - "forest"
+  - "magic"
+  - "books"
+  - "school"
+  - "island"
+
+messages:
+  chat-muted-broadcast: "&eChat has been &cMUTED &eby &6%player%&e!"
+  chat-unmuted-broadcast: "&eChat has been &aUNMUTED &eby &6%player%&e!"
+  chat-currently-muted: "&cThe chat is currently muted! You cannot type."
+  no-game-running: "&cThere is no active game running right now."
+  game-stopped: "&cThe current game was stopped by &e%player%&c!"
+  current-answer: "&6The correct answer is: &f%answer%"
+  invalid-args: "&cInvalid argument! Use /chatgame to view the menu."
+  only-players: "Only players can execute this command."
+  game-already-running: "&cThere is already an active game running! Stop it first using /chatgame stop."
+  plugin-reloaded: "&aConfiguration reloaded successfully!"
+
+  start-math:
+    - "&b&l► CHAT GAME"
+    - "&eSolve the expression as fast as possible to win!"
+    - "&6&lEXPRESSION: &f%expression%"
+
+  start-guess:
+    - "&b&l► CHAT GAME"
+    - "&eGuess the number from 1 to 100 to win!"
+
+  start-word:
+    - "&b&l► CHAT GAME"
+    - "&eUnscramble the letters to guess the word!"
+    - "&6&lSCRAMBLED WORD: &f%scrambled%"
+
+  # Aggiornati con %answer% per mostrare la soluzione esatta alla proclamazione del vincitore
+  win-math: "&a&l%player% &asolved the expression (&e%answer%&a) in &e%time%s&a!"
+  win-guess: "&a&l%player% &aguessed the number &e%answer% &ain &e%time%s&a!"
+  win-word: "&a&l%player% &aunscrambled the word &e%answer% &acorrectly in &e%time%s&a!"

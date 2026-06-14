@@ -1,0 +1,27 @@
+name: ChatGame
+main: me.nuccio.chatgame.Chatgame
+version: 1.0
+api-version: '1.20'
+author: Nuccio
+description: Chat mini-games for Spigot and Paper.
+
+commands:
+  chatgame:
+    description: Opens the chat games menu or manages current games.
+    usage: /chatgame [math|guess|word|random|answer|stop|reload]
+    permission: chatgame.start
+  chatmute:
+    description: Mutes or unmutes the global server chat.
+    usage: /chatmute
+    permission: chatgame.mute
+
+permissions:
+  chatgame.start:
+    description: Allows starting chat mini-games and reloading the config.
+    default: op
+  chatgame.mute:
+    description: Allows muting and unmuting the global chat.
+    default: op
+  chatgame.bypassmute:
+    description: Allows chatting even when chat is globally muted.
+    default: op
